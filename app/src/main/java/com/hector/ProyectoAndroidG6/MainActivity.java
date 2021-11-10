@@ -1,4 +1,4 @@
-package com.example.proyectoactivities;
+package com.hector.ProyectoAndroidG6;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.proyectoactivities.R;
 
 public class MainActivity extends AppCompatActivity {
 

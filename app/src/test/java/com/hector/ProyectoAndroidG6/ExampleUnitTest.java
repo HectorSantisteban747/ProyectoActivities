@@ -1,4 +1,4 @@
-package com.example.proyectoactivities;
+package com.hector.ProyectoAndroidG6;
 
 import org.junit.Test;
 

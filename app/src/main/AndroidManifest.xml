@@ -10,15 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoActivities">
         <activity
-            android:name=".ThreeActivity"
+            android:name="com.hector.ProyectoAndroidG6.ThreeActivity"
             android:label="@string/activity_third"
             android:exported="false" />
         <activity
-            android:name=".SecondActivity"
+            android:name="com.hector.ProyectoAndroidG6.SecondActivity"
             android:label="@string/activity_second"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.hector.ProyectoAndroidG6.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
