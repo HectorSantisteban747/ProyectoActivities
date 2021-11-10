@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToActivity2(View view){
         Intent intent = new Intent(this, SecondActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtra("msg", "Hola");
+        intent.putExtra("msg", "Hola min Tic");
         intent.putExtra("year", 2021);
         startActivity(intent);
     }
