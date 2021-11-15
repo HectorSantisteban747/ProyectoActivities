@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoActivities">
         <activity
+            android:name="com.hector.ProyectoAndroidG6.logInActivity"
+            android:exported="false" />
+        <activity
             android:name="com.hector.ProyectoAndroidG6.MainActivity"
             android:exported="false" />
         <activity

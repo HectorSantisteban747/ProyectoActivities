@@ -11,11 +11,14 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.proyectoactivities.R;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView txt1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "onCreate", Toast.LENGTH_SHORT).show();
         Log.i("Informacion","onCreate");
+        txt1 = (TextView) findViewById(R.id.textView);
+        txt1.setText("Hola dro");
+    }
+
+    /**
+     * actividad tiene el foco
+     * @param hasFocus
+     */
+    public void onWindowFocusChanged(boolean hasFocus){
+        super.onWindowFocusChanged(hasFocus);
+        if(hasFocus){
+            Toast.makeText(this, txt1.getWidth(), Toast.LENGTH_SHORT).show();
+        }
     }
 
     /**
@@ -77,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onKeyDown(int keyCode, KeyEvent event){
         if(keyCode == KeyEvent.KEYCODE_BACK){
 
-            new AlertDialog.Builder(this, R.style.Theme_AppCompat_DayNight_Dialog_Alert)
+            new AlertDialog.Builder(this, R.style.Theme_AppCompat_Dialog_Alert)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("Informacion")
                     .setMessage("¿desea salir?")
