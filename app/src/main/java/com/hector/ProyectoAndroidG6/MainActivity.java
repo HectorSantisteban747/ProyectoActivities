@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
         if(hasFocus){
-            Toast.makeText(this, txt1.getWidth(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, txt1.getTop() + "", Toast.LENGTH_SHORT).show();
         }
     }
 

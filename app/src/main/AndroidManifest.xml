@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoActivities">
         <activity
-            android:name="com.hector.ProyectoAndroidG6.logInActivity"
+            android:name="com.hector.ProyectoAndroidG6.SplashScreen"
             android:exported="false" />
         <activity
             android:name="com.hector.ProyectoAndroidG6.MainActivity"
@@ -24,7 +24,7 @@
             android:exported="false"
             android:label="@string/activity_second" />
         <activity
-            android:name="com.hector.ProyectoAndroidG6.SplashScreen"
+            android:name="com.hector.ProyectoAndroidG6.logInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

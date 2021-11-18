@@ -42,31 +42,31 @@
             android:orientation="vertical"
             android:padding="15dp">
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Iniciar Sesion"
-                android:textAllCaps="false" />
-
             <EditText
                 android:id="@+id/editTextTextPersonName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_action_name"
                 android:ems="10"
-                android:hint="Usuario"
-                android:inputType="textPersonName"
-                android:text=" " />
+                android:hint="User"
+                android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_lock"
                 android:ems="10"
                 android:hint="password"
-                android:inputType="textPersonName" />
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="iniciarSecion"
+                android:text="Iniciar Sesion"
+                android:textAllCaps="false" />
 
             <TextView
                 android:id="@+id/textView3"
