@@ -46,8 +46,9 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void goToActivity2(View view){
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent intent = new Intent(this, EmpleadoActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        //Permite enviar estos parametros a la actividad
         intent.putExtra("msg", "Hola min Tic");
         intent.putExtra("year", 2021);
         startActivity(intent);
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem menuItem){
         int id = menuItem.getItemId();
         if(id == R.id.mnu_secondActivity){
-            Intent intent = new Intent(this, SecondActivity.class);
+            Intent intent = new Intent(this, EmpleadoActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             intent.putExtra("msg", "Hola min Tic");
             intent.putExtra("year", 2021);

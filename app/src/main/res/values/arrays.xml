@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_estado_civil">
+        <item>Soltero</item>
+        <item> Casado</item>
+        <item>Divorciado</item>
+        <item>viudo</item>
+    </string-array>
+    <string-array name="lista_cargo">
+        <item>Vigilante</item>
+        <item>Servicios Generales</item>
+        <item>Subgerente</item>
+        <item>Secretario</item>
+    </string-array>
+</resources>

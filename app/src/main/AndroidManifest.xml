@@ -10,21 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoActivities">
         <activity
+            android:name="com.hector.ProyectoAndroidG6.ThreeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.hector.ProyectoAndroidG6.SplashScreen"
             android:exported="false" />
         <activity
             android:name="com.hector.ProyectoAndroidG6.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.hector.ProyectoAndroidG6.ThreeActivity"
+            android:name="com.hector.ProyectoAndroidG6.EmpleadoActivity"
             android:exported="false"
             android:label="@string/activity_third" />
         <activity
-            android:name="com.hector.ProyectoAndroidG6.SecondActivity"
-            android:exported="false"
-            android:label="@string/activity_second" />
-        <activity
             android:name="com.hector.ProyectoAndroidG6.logInActivity"
+            android:exported="false"
+            android:label="@string/activity_empleado" />
+        <activity
+            android:name="com.hector.ProyectoAndroidG6.FourtActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

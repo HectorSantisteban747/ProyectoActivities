@@ -10,15 +10,15 @@ import android.widget.Toast;
 
 import com.example.proyectoactivities.R;
 
-public class SecondActivity extends AppCompatActivity {
+public class EmpleadoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_empleado);
         //activa el soporte para la action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getParametros();
+        //getParametros();
     }
 
     /*
